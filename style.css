@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: text;
+    animation-duration: 3s;
+    transition: ease-in-out;
+}
+
+.section01 {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url('https://lh3.googleusercontent.com/pw/AL9nZEUygkaNaGtuDZwHwbbNRFxrA3dkcjLFUKrXXt9hSqsR4UAfc65ENz231C3v_YBAJszch1HsHMIke8yR4DG5pcbRTZLLTUMnFwD9CJ7OOMeAr-w7IqZ2fV0IbIh0fyR2wSpn-gRXXH2ZnD-GOZkwJt4=w1659-h933-no?authuser=0');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section01 img {
+    width: 50px;
+    cursor: pointer;
+}
+
+header button {
+    padding: 0;
+
+}
+
+header button:hover {
+    padding: 0;
+}
+
+header {
+    padding: 20px 30px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+button {
+    margin: 10px 0;
+    padding: 13px;
+    background-color: transparent;
+    border: 2px solid pink;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: pink;
+    border: 2px solid pink;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.links {
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: auto;
+}
+
+.readMore {
+    color: black !important;
+    font-weight: bold;
+
+}
+
+.readMore:hover {
+    text-decoration: none;
+}
+
+.icon {
+    animation-name: I;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+a {
+    color: white;
+}
+
+.links a {
+    margin: 0 25px 0 0;
+    font-size: 1.2rem;
+    color: black;
+    animation-name: icons;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+a:hover {
+    color: black !important;
+}
+
+.sub01 {
+    position: absolute;
+    height: auto;
+    top: 25%;
+    left: 3vw;
+    width: 30%;
+    padding: 5px;
+}
+
+.linkcard {
+    position: absolute;
+    animation-name: linkcard;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+
+.hr03 {
+    margin: 10px 0;
+    height: 3px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+#menuBar {
+    height: 100vh;
+    width: 25%;
+    background-color: pink;
+    position: absolute;
+    right: 0;
+}
+
+#menuBack {
+    margin-top: 10px;
+}
+
+#menuBack:hover {
+    color: white;
+}
+
+.navLinks a {
+    text-decoration: none;
+
+}
+
+.navLinks a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#menuBar a {
+    cursor: pointer;
+}
+
+.navLinks {
+    margin-top: 10%;
+    height: 50%;
+}
+
+
+/*        section02        */
+
+
+.section02 {
+    padding-bottom: 15px;
+    height: fit-content;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.cardImg img {
+    width: 100%;
+}
+
+.sub_section02 {
+    padding: 20px;
+    width: 95%;
+    margin: 0 10px 0 0;
+    height: auto;
+}
+
+.sub_section02:hover {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section03 {
+    padding: 5% 0;
+    height: auto;
+}
+
+.sub03 {
+    margin: 10px 0;
+    padding: 10px;
+    width: fit-content;
+    align-items: center;
+    animation-name: text;
+    animation-duration: 3s;
+    transition: ease-in-out;
+
+}
+
+.sub03:hover {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.duplicate {
+    width: 100%;
+    height: 90px;
+}
+
+.section04 {
+    height: auto;
+    padding: 20px 10px;
+}
+
+.section04 img {
+    width: 100%;
+}
+
+.sub04Text {
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.sub04Text:hover {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section05 {
+    margin: 20px 0;
+    padding: 20px 10px;
+    height: auto;
+}
+
+.sub05inputs {
+    position: relative;
+    padding: 10px;
+    height: auto;
+}
+
+.sub05inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid pink;
+    color: red;
+    margin: 5px 0 12px 0;
+}
+
+.inputtext01 {
+    padding: 0 5px;
+    position: absolute;
+    background-color: white;
+    top: -3%;
+    left: 2.6%;
+    animation-name: inputText01;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+
+.inputtext02 {
+    padding: 0 5px;
+    position: absolute;
+    background-color: white;
+    top: 17%;
+    left: 2.6%;
+    animation-name: inputText02;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+
+.inputtext03 {
+    padding: 0 5px;
+    position: absolute;
+    background-color: white;
+    top: 36%;
+    left: 2.6%;
+    animation-name: inputText03;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+
+.section05 img {
+    width: 100%;
+}
+
+.section05 * {
+    margin: 10px 0 0 0;
+
+}
+
+footer {
+    height: auto;
+    background-color: pink;
+    margin: 0 10%;
+    padding: 10px;
+}
+
+.HR {
+    height: 4px;
+    background-color: pink;
+    margin: 10px 10%;
+}
+
+@keyframes text {
+    0% {
+        color: white;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes icons {
+    0% {
+        color: lightpink;
+    }
+
+    50% {
+        color: whitesmoke;
+    }
+
+    100% {
+        color: lightpink;
+    }
+}
+
+@keyframes I {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 10px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes linkcard {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 98.2%;
+        opacity: 1;
+    }
+}
+
+@keyframes inputText01 {
+    from {
+        top: 6%;
+        left: 2.6%;
+        opacity: 0;
+    }
+}
+
+@keyframes inputText02 {
+    from {
+        top: 28%;
+        left: 2.6%;
+        opacity: 0;
+    }
+
+}
+
+@keyframes inputText03 {
+    from {
+        top: 44%;
+        left: 2.6%;
+        opacity: 0;
+    }
+
+}
